@@ -1,0 +1,55 @@
+<!--pages/sankong/sankong.wxml-->
+<swiper autoplay="true" interval="2000" indicator-dots circular='' style="width: 750rpx; height: 461rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+<swiper-item><image mode="widthFix" style="display: contents" src="/pages/images/sankong/kongfu.png"></image></swiper-item>
+
+<swiper-item><image mode="widthFix" style="display: contents" src="/pages/images/sankong/konglin.png"></image></swiper-item>
+
+<swiper-item><image mode="widthFix" src="/pages/images/sankong/kongmiao.png" style="display: contents"></image></swiper-item>
+
+</swiper>
+<view class="box1" style="position: relative; left: 35rpx; top: -91rpx">
+  <view class="left">
+    <image class="top" src="/pages/images/sankong/kongfu.svg" bindtap="kongfu"></image>
+    <view class="bottom">孔府</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/sankong/konglin.svg" bindtap="konglin"></image>
+    <view class="bottom">孔林</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/sankong/kongmiao.svg" bindtap="kongmiao"></image>
+    <view class="bottom">孔庙</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/sankong/qita.svg" bindtap="wenhua"></image>
+    <view class="bottom">文化</view>
+  </view>
+</view>
+<view class="box2" style="position: relative; left: -4rpx; top: -55rpx" >
+  <view class="text">曲阜，山东省辖县级市，由济宁市代管，孔子的故乡，是黄帝生地、神农故都、商殷故国、周汉鲁都，是东方文化重要发祥地，被誉为“东方圣城”，亦被称为“东方耶路撒冷”。
+  </view>
+</view>
+<view class="box2" hidden="{{flag1}}">
+  <image class="zhaopian1" src="/pages/images/sankong/kongfu.png"></image>
+  =============================
+  <view class="text">孔府，又称衍圣公府，位于中国山东省济宁市曲阜市，曲阜城内、孔庙东侧。是孔子的世袭衍圣公的后代居住的府第。洪武十年（1377年）始建，弘治十六年（1503年）重修，占地240亩。</view>
+  <view class="text">孔府共有厅、堂、楼、房463间。 [2]  九进庭院，三路布局：东路即东学，建一贯堂、慕恩堂、孔氏家庙及作坊等；西路即西学，有红萼轩、忠恕堂、安怀堂及花厅等；孔府的主体部分在中路，前为官衙，有三堂六厅，后为内宅，有前上房、前后堂楼、配楼、后六间等，最后为花园。孔府仿照封建王朝的六部而设六厅，在二门以内两侧，分别为管勾厅、百户厅、典籍厅、司乐厅、知印厅、掌书厅、公共管理孔府事务。</view>
+  
+
+</view>
+<view class="box2" hidden="{{flag2}}">
+  <image class="zhaopian1" src="/pages/images/sankong/konglin.png"></image>
+  =============================
+
+  <view class="text">孔林，又称至圣林，位于山东省曲阜市城北1.5千米处，是孔子及其后裔的家族墓地，与孔府、孔庙统称“三孔”</view>
+  <view class="text">孔林占地近200万平方米，有坟冢10万余座，有神道与城门相连。孔子墓位于孔林中部，封土呈偃斧形，汉代设祠坛建神门，宋代刻制石仪，元代立碑、作周垣、建重门，明代重建享殿墓门、添建洙水桥坊和万古长春坊。孔林丰富的地上文物，对于研究中国墓葬制度的沿革和古代政治、经济、文化、风俗、书法、艺术等都具有很高的价值.</view>
+  <view class="text">1961年3月4日，孔林被列为第一批全国重点文物保护单位。1994年12月，孔林被联合国教科文组织列入世界遗产名录.</view>
+
+</view>
+<view class="box2" hidden="{{flag3}}">
+  <image class="zhaopian1" src="/pages/images/sankong/kongmiao.png"></image>
+  =============================
+  <view class="text">孔庙，即孔子庙，又称作文庙，是纪念中国伟大思想家、教育家孔子的祠庙建筑，传统的中国城市都有文庙，在历代王朝更迭中又被称作文庙、夫子庙、至圣庙、先师庙、先圣庙、文宣王庙，尤以文庙之名更为普遍。其中南京夫子庙、曲阜孔庙、北京孔庙和吉林文庙并称为中国四大文庙</view>
+  <view class="text">中国、朝鲜、日本、越南、印度尼西亚、新加坡、美国等国家分布着2000多座孔庙，其中中国国内有1600多座，而国内保存较好的孔庙只有300余座，列入国家重点文物保护单位的有21座。</view>
+</view>

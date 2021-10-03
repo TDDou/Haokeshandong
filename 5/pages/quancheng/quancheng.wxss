@@ -1,0 +1,59 @@
+/* pages/quancheng/quancheng.wxss */
+page{
+  min-height: 100%;
+  background-color:rgb(238, 233, 233);
+}
+
+.box1{
+  width: 70%;
+  height: 40px;
+  background-color: white;
+  border: 3px solid white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow:0px 0px 10px #9099a0;
+}
+.box2{
+  width: 80%;
+  height: auto;
+  background-color: aliceblue;
+  border: 3px dashed silver;
+  padding: 20px;
+  margin: 20px ;
+  border-radius: 20px;
+  
+}
+.left{
+  width: 25%;
+  height: 100%;
+  float: left; 
+  
+}
+.top{
+  width: 90%;
+  height: 80%;
+  
+}
+.bottom{
+  width: 90%;
+  height: 20%;
+  font-size: 15px;
+  text-align: center;
+  font-family: "仿宋";
+
+}
+.text{
+  font-family: "宋体";
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 5px;
+  line-height: 20px; 
+  text-indent: 40px;
+}
+.zhaopian1{
+  width: 330px;
+  height: 300px;
+  margin: 10px auto;
+
+}

@@ -1,0 +1,26 @@
+/* pages/shizilou/shizilou.wxss */
+page{
+  min-height: 100%;
+  background-color:rgb(238, 233, 233);
+}
+.box1{
+  width: 80%;
+  height: auto;
+  background-color: aliceblue;
+  border: 3px solid silver;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: "隶书";
+  text-align: center;
+  font-size: 25px;
+}
+.box2{
+  width: 80%;
+  height: auto;
+  background-color: aliceblue;
+  border: 3px dashed silver;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}

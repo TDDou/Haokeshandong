@@ -1,0 +1,11 @@
+<!--pages/fengguang/fengguang.wxml-->
+<view class="box1"  >水城风光</view>
+<view class="box2">
+  <image src="/pages/images/liaocheng/fengguang1.png"></image>
+  <image src="/pages/images/liaocheng/fengguang2.png"></image>
+  <image src="/pages/images/liaocheng/fengguang3.png"></image>
+  <image src="/pages/images/liaocheng/fengguang4.png"></image>
+  <image src="/pages/images/liaocheng/fengguang5.png"></image>
+</view>
+
+

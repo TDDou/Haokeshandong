@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/taishan/taishan",
+    "pages/quancheng/quancheng",
+    "pages/sankong/sankong",
+    "pages/jiaxiang/jiaxiang",
+    "pages/fengguang/fengguang",
+    "pages/lishi/lishi",
+    "pages/shizilou/shizilou",
+    "pages/dongchuanghu/dongchuanghu",
+    "pages/guangyuelou/guangyuelou"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "好客山东欢迎您",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/image/home-off.png",
+        "selectedIconPath": "/image/home-on.png"
+      },
+      {
+        "pagePath": "pages/taishan/taishan",
+        "text": "泰山",
+        "iconPath": "/image/taishan-off.png",
+        "selectedIconPath": "/image/taishan-on.png"
+      },
+      {
+        "pagePath": "pages/quancheng/quancheng",
+        "text": "泉城",
+        "iconPath": "/image/quanzhou-off.png",
+        "selectedIconPath": "/image/quanzhou-on.png"
+      },
+      {
+        "pagePath": "pages/sankong/sankong",
+        "text": "三孔",
+        "iconPath": "/image/sankong-off.png",
+        "selectedIconPath": "/image/sankong-on.png"
+      },
+      {
+        "pagePath": "pages/jiaxiang/jiaxiang",
+        "text": "聊城",
+        "iconPath": "/image/liaocheng-off.png",
+        "selectedIconPath": "/image/liaocheng-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

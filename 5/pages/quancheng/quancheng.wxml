@@ -1,0 +1,58 @@
+<!--pages/quancheng/quancheng.wxml-->
+
+<swiper autoplay="true" interval="2000" indicator-dots circular='' style="width: 750rpx; height: 461rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+<swiper-item><image mode="widthFix" style="display: contents" src="/image/jinan.png"></image></swiper-item>
+
+<swiper-item><image mode="widthFix" style="display: contents" src="/pages/images/quancheng/daminghu.png"></image></swiper-item>
+
+<swiper-item><image mode="widthFix" src="/pages/images/quancheng/baotuquan.png" style="display: contents"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="/pages/images/quancheng/qianfushan.png" style="display: contents"></image></swiper-item>
+
+</swiper>
+<view class="box1" style="position: relative; left: 35rpx; top: -91rpx">
+  <view class="left">
+    <image class="top" src="/pages/images/quancheng/daminghu.svg" bindtap="daminghu"></image>
+    <view class="bottom">大明湖</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/quancheng/baotuquan.svg" bindtap="baotuquan"></image>
+    <view class="bottom">趵突泉</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/quancheng/qianfushan.svg" bindtap="qianfushan"></image>
+    <view class="bottom">千佛山</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/quancheng/qita.svg" bindtap="meishi"></image>
+    <view class="bottom">其他</view>
+  </view>
+</view>
+<view class="box2" style="position: relative; left: -4rpx; top: -55rpx" >
+  <view class="text">济南，又称“泉城”，是中国东部沿海经济大省——山东省的省会，是国务院公布的国家历史文化名城之一，是全省政治、经济、文化、科技、教育和金融中心，也是国家批准的沿海开放城市和十五个副省级城市之一。下辖六个区、三个县、一个县级市。
+  </view>
+</view>
+<view class="box2" hidden="{{flag1}}">
+  <image class="zhaopian1" src="/pages/images/quancheng/daminghu.png"></image>
+  =============================
+  <view class="text">大明湖，山东省济南市区湖泊、济南三大历史名胜之一。位于山东省济南市历下区旧城区北部，是由济南众多泉水汇流而成，湖水经泺水河注入小清河。水面面积57.7公顷，水深平均2~3米。大明湖景色优美秀丽，湖水水色澄碧，是国家5A级旅游景区——天下第一泉风景区的核心组成部分之一。</view>
+  <view class="text">大明湖历史悠久，纪念古人政绩、行踪的建筑以及自然景观很多，诸如历下亭、铁公祠、小沧浪、北极阁、汇波楼、南丰祠、遐园、稼轩祠等，引得历代文人前来凭吊、吟咏。唐代以后的历代诗人，都留下了著名的诗篇。</view>
+  <view class="text">解放后，于1957年正式辟建成公园，几经修缮美化，成为济南市著名的游览胜地之一。</view>
+
+</view>
+<view class="box2" hidden="{{flag2}}" >
+  <image class="zhaopian1" src="/pages/images/quancheng/baotuquan.png"></image>
+  =============================
+
+  <view class="text">趵突泉（Baotu Spring），济南三大名胜之一，位于山东省济南市历下区，东临泉城广场，北望五龙潭，面积达158亩，位居济南七十二名泉之冠。乾隆皇帝南巡时因趵突泉水泡茶味醇甘美，曾册封趵突泉为“天下第一泉”。也是最早见于古代文献的济南名泉。</view>
+  <view class="text">趵突泉泉眼位于趵突泉公园内的泺源堂前。民国二十年（1931年）四周用石砌岸。几经变化，形成长方形泉池，长30米，宽18米，深2.2米。北临泺源堂，西傍观澜亭，东架来鹤桥，南有长廊围合。泉水从地下石灰岩溶洞中涌出，每天涌出7万立方米泉水，泉水有三个出水口，最大涌水量为16.2万米/天。趵突泉水一年四季恒定在18℃左右。趵突泉周边的名胜古迹有泺源堂、观澜亭、尚志堂、李清照纪念堂、李苦禅纪念馆等景点。</view>
+  <view class="text">趵突泉与千佛山、大明湖并称为济南三大名胜。2013年，以趵突泉为代表的“天下第一泉景区”成为国家AAAAA级旅游景区。2016年9月5日下午，趵突泉泉群省级地质公园揭牌开园。</view>
+
+</view>
+<view class="box2" hidden="{{flag3}}">
+  <image class="zhaopian1" src="/pages/images/quancheng/qianfushan.png"></image>
+  =============================
+  <view class="text">千佛山位于山东省济南市历下区，是济南三大名胜之一，古称历山，因为古史称舜在历山耕田的缘故，又曾名舜山和舜耕山。隋开皇年间（581年一600年），因佛教盛行，随山势雕刻了数千佛像，故称千佛山。</view>
+  <view class="text">千佛山是泰山的余脉，海拔285米，占地166.1公顷，距济南市中心2.5公里，位于山东省济南市中心南部，与趵突泉、大明湖并称济南三大名胜，是国家AAAA级旅游景区，是第九批国家级风景名胜区。</view>
+  <view class="text">2016年9月5日，千佛山摩崖石像及碑刻群挂牌山东省文物保护单位。</view>
+</view>

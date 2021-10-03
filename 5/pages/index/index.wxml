@@ -1,0 +1,33 @@
+<!--pages/index/index.wxml-->
+<view class="title">电科19-1-05冯晓蕾</view>
+
+<swiper autoplay="true" interval="2000" indicator-dots circular='' style="width: 750rpx; height: 461rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+  <swiper-item><image   mode="widthFix" style="border-radius: 30px;" src="/image/wuyueduzun.png"></image></swiper-item>
+
+  <swiper-item><image  mode="widthFix" style="border-radius: 30px;" src="/image/jinan.png"></image></swiper-item>
+
+  <swiper-item><image  mode="widthFix" style="border-radius: 30px;" src="/image/qufu.png"></image></swiper-item>
+
+</swiper>
+
+<view class="box1">
+  <image src="/image/haokeshandong.png" class="left1"></image>
+  <view class="right1">好客山东欢迎您</view>
+</view>
+<view class="box2">
+  <view  class="text1">
+    山东省面积15.7万平方公里，人口9684万，辖17个市、138个县（市、区）。全省海岸线长3024公里，近海海域17万平方公里。境内地形以平原、山地、丘陵为主，中部山地突出，东部丘陵和缓起伏，西南、西北低洼平坦。省会济南被誉为“泉城”。
+　</view>
+  <view class="text">
+    山东历史悠久，文化灿烂，素有“孔孟之乡，礼仪之邦”的美誉，是中华民族古老文明的发祥地之一，山东名人辈出，孔子被誉为万世师表，孟子、庄子、墨子、荀子、孙子、颜子、曾子、管子、左丘明、鲁班、扁鹊、诸葛亮、王羲之、颜真卿、张择瑞、贾思勰、刘勰、李清照、辛弃疾、蒲松龄等历史名人对中华文化乃至世界文明产生重要影响。旅游资源不胜枚举，世界自然和文化遗产泰山、世界文化遗产曲阜孔庙、孔府、孔林享誉海内外，蓬莱仙境、济南泉群、青岛海滨、台儿庄古城等美名远扬。
+  </view>
+  <view class="text">
+    山东物产资源比较丰富，小麦、花生、烟草、水果、蔬菜等农作物产量均居全国前列；近海盛产海参、扇贝、海带等各种水产品；已发现矿藏150多种，有50多种储量居全国前10位，胜利油田是全国第二大石油生产基地，招远被中国黄金协会命名为“中国金都”，近海海盐产量稳居全国第一。
+  </view>
+  <view class="text">
+    山东经济发展迅速，主要经济指标居全国前列。2012年，全省实现生产总值50013亿元，同比增长9.8%，居全国第二位。2013年上半年，全省实现生产总值25958亿元，同比增长9.6%，高于全国两个百分点。山东已基本形成以能源、化工、冶金、建材、机械、纺织、食品等支柱产业为主体的工业体系，海尔、海信、浪潮、青岛啤酒、中国重汽等企业驰名中外。
+  </view>
+
+</view>
+

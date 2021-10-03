@@ -1,0 +1,30 @@
+// pages/quancheng/quancheng.js
+Page({
+  data:{
+    flag1:true,
+    flag2:true,
+    flag3:true
+  },
+  daminghu:function(){
+    this.setData({
+      flag1:false,
+      flag2:true,
+      flag3:true
+    })
+  },
+  baotuquan:function(){
+    this.setData({
+      flag1:true,
+      flag2:false,
+      flag3:true
+    })
+  },
+  qianfushan:function(){
+    this.setData({
+      flag1:true,
+      flag2:true,
+      flag3:false
+    })
+  }
+
+})

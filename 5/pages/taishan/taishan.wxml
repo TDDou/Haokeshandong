@@ -1,0 +1,65 @@
+<!--pages/taishan/taishan.wxml-->
+<swiper autoplay="true" interval="2000" indicator-dots circular='' style="width: 750rpx; height: 461rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+<swiper-item><image mode="widthFix" style="display: contents" src="/image/wuyueduzun.png"></image></swiper-item>
+
+<swiper-item><image mode="widthFix" style="display: contents" src="/pages/images/taishan/taishan1.png"></image></swiper-item>
+
+<swiper-item><image mode="widthFix" src="/pages/images/taishan/taishan2.png" style="display: contents"></image></swiper-item>
+
+</swiper>
+
+<view class="box1" style="position: relative; left: 35rpx; top: -89rpx">
+  <view class="left">
+    <image class="top" src="/pages/images/taishan/zhaopian.svg" bindtap="zhaopian"></image>
+    <view class="bottom">照片</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/taishan/lishi.svg" bindtap="wenhua"></image>
+    <view class="bottom">历史</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/taishan/luxian.svg" bindtap="luxian"></image>
+    <view class="bottom">路线</view>
+  </view>
+  <view class="left">
+    <image class="top" src="/pages/images/taishan/qita.svg" bindtap="qita"></image>
+    <view class="bottom">其他</view>
+  </view>
+</view>
+
+<view class="box2" style="position: relative; left: -4rpx; top: -55rpx">
+  <view class="text">泰安市，山东省地级市，位于山东省中部，北依省会济南，南临曲阜，东连商城临沂，西濒黄河，总面积7762平方千米。北距省会济南市66.8千米。
+ </view>
+</view>
+
+<view  class="box2" hidden="{{flag1}}">
+  <image class="zhaopian1" src="/pages/images/taishan/1.gif"></image>
+  <image class="zhaopian1" src="/pages/images/taishan/taishan2.png"></image>
+  <image class="zhaopian1" src="/pages/images/taishan/taishan1.png"></image>
+  <image class="zhaopian1" src="/image/wuyueduzun.png"></image>
+</view>
+
+<view class="box2"hidden="{{flag2}}">
+  <view class="text">泰山古称岱山，又称岱宗。位于山东省中部，为中国五岳（泰山、华山、衡山、嵩山、恒山）之一。因地处东部，故称东岳。泰山总面积426平方公里，主峰玉皇顶海拔1532.8米，山势雄伟壮丽，气势磅礴，名胜古迹众多，有'五岳独尊'之誉。孔子有'登泰山而小天下'之语；唐大诗人杜甫有'会当凌绝顶，一览众山小'的佳句。泰山在人们的心目中，已成为伟大、崇高的象征。</view>
+  <view class="text">泰山成山于太古代，距今有24亿多年。泰山是中国山岳公园之一，又是天然的历史、艺术博物馆。它不仅是国家重点风景名胜区，而且已被联合国确定为世界文化和自然遗产之一。山上名胜古迹众多，有古建筑群20多处，历史文化遗迹2000多处，还有大量历史名人赞颂泰山的石刻、碑记。从泰山脚下直上岱顶，共10多公里，有石级可登，沿途根据游览区的分布和山势，修建了茶亭、餐厅、宾馆等休息场所。由于泰山的特殊地位，受到历代帝王的尊崇，把它当作江山永固的象征。历代文人在泰山上留下了上千处题咏石，成为中国历代书法艺术的珍贵遗产。同时，泰山又是佛、道两教重地，因而庙宇，名胜遍山。泰山不仅历史悠久，文化灿烂，地质历史也十分古老，科学研究表明，泰山具有极高历史文化价值，风格独特的美学价值和世界意义的地质科学价值。这三者融成了世界罕见的泰山风景名胜区。五岳独尊，中华之魂，登泰山而小天下。</view>
+  
+</view>
+
+<view class="box2"hidden="{{flag3}}">
+  <image class="zhaopian1" src="/pages/images/taishan/luxian.png"></image>
+  
+  <view class="text">1．第一条：从岱庙（东岳庙）→ 天门→ 孔子登临处→ 红门→ 中天门→ 南天门→ 玉皇顶</view>
+  =============================
+  <view class="text">2．第二条是坐汽车上山的环山公路线。
+天外村（天地广场）→ 环山路→ 竹林寺→ 黄溪河水库→ 中天门→ 南天门→ 玉皇顶</view>
+=============================
+  <view class="text">3．第三条是从西北侧山口进，桃花源入口，为环山公路。桃花峪入口→ 环山公路→ 彩石溪→ 赤磷鱼保护区→ 桃花源索道→ 南天门→ 玉皇顶</view>
+  =============================
+  <view class="text">4．第四条是东北侧山口方向，天烛峰→ 印象泰山（封禅大典表演场）→ 鲤鱼背→ 大小天烛峰→ 石河→ 尧观顶→ 北天门→ 日观峰→ 玉皇顶</view>
+  
+　　
+　　
+　　
+
+</view>

@@ -1,0 +1,12 @@
+<!--pages/dongchuanghu/dongchuanghu.wxml-->
+<view class="box1">东昌湖</view>
+<view class="box2">
+  <image src="/pages/images/liaocheng/dongchuanghu.png"></image>
+  <view >电话：   0635-8426331</view>
+  <view >用时参考：3小时以上</view>
+  <view >门票：   门票免费，游乐设施另付费</view>
+  <view >开放时间：全天</view>
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  <view class="text">东昌湖，原名环城湖、凤城湖，位于山东省聊城市东昌府区。总面积4.2平方公里，略小于杭州西湖，为中国北方少见的人工湖泊。此湖为宋代掘土筑城时形成的护城河经历代挖土、蓄水形成。后引入京杭运河、黄河之水予以补给，形成了稳定的湖面。</view>
+  <view class="text">东昌湖湖区盛产鱼虾等，原为聊城市重要的水产基地。1980年代，进行了开发性建设，形成当地知名旅游景区。</view>
+</view>
